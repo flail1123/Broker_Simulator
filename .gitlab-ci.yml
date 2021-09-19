@@ -1,0 +1,18 @@
+image: python:latest
+
+before_script:
+  - python -V  # Print out python version
+  - pip install coverage
+  - pip install pytest
+  - pip install pandas
+  - pip install matplotlib
+  - pip install pygame
+  - pip install pycobertura
+  - pip install tkcalendar
+  - cd broker-simulator
+
+run_tests_and_generate_coverage:
+  script:
+    - coverage run -m pytest test/
+    - coverage xml
+    - pycobertura show coverage.xml

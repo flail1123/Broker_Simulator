@@ -1,0 +1,12 @@
+Test coverage using coverage.py
+- install coverage.py
+$ pip install coverage
+
+- run pytest using coverage
+$ coverage run -m pytest test/
+
+- view report in browser (chromium shown)
+$ coverage html
+$ chromium htmlcov/index.html
+
+Trash produced in the process: 'htmlcov', '.coverage'
