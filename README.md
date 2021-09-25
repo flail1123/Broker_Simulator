@@ -7,6 +7,7 @@ LINUX (not all features may be supported): <br>
 ```
 git clone https://github.com/flail1123/Broker_Simulator.git
 cd Broker_Simulator/broker-simulator
+pip3 install tk
 python3 src/app.py
 ```
 
