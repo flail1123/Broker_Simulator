@@ -1,5 +1,5 @@
 # Broker simulator
-To use: 
+How to run: 
 
 WINDOWS: <br>
 download setup.exe file that will automatically install the app<br>
